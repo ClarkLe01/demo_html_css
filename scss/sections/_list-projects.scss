@@ -1,0 +1,65 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.table-tools{
+    position: relative;
+    &__panel-heading{
+        color:$gray-600;
+        margin-bottom: 1rem;
+        .pull-right{
+            float: right;
+        }
+    }
+    &__panel-body{
+        width: 100%;
+        height: 3rem;
+        button{
+            margin-left: 0.5rem;
+            height: 100%;
+        }
+    }
+}
+
+.table-projects{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    font-size: 1rem;
+    thead{
+        text-transform: capitalize;
+        background-color: $primary;
+        tr{
+            th{
+                color:$white;
+            }
+        }
+    }
+    tbody{
+        tr{
+            td{
+                text-align: center;
+                a{
+                    color:$black;
+                    text-decoration: none;
+                    &:hover{
+                        color:$pink;
+                    }
+                }
+                .btn{
+                    color:$white;
+                    text-decoration: none;
+                }
+            }
+            .index-data{
+                font-weight: bold;
+            }
+            .des-project{
+                text-align: left;
+            }
+            .btn-container{
+                text-align: center;
+            }
+            
+        }
+    }
+}
