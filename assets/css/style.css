@@ -10887,6 +10887,24 @@ textarea.form-control-lg {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
 }
 
+.project-form, #developer-form {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100%;
+}
+.project-form input:focus, .project-form textarea:focus, #developer-form input:focus, #developer-form textarea:focus {
+  border: 0.1rem solid #ffc107;
+}
+
+.card-body {
+  color: #fff;
+}
+
+.form_card {
+  margin: 1rem;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
 }
@@ -10914,6 +10932,10 @@ textarea.form-control-lg {
   color: #d122e3;
 }
 
+.img-box {
+  position: relative;
+}
+
 .border-animation {
   position: absolute;
   top: 0;
@@ -10928,6 +10950,22 @@ textarea.form-control-lg {
   animation-delay: 1s;
 }
 .border-animation--border-2 {
+  animation-delay: 1.5s;
+}
+
+.border-animation-square {
+  position: absolute;
+  top: 0rem;
+  left: 0;
+  width: 30rem;
+  height: 17rem;
+  border: 0.55rem solid #e9acf0;
+  animation: pulse-border 1.5s linear infinite;
+}
+.border-animation-square--border-1 {
+  animation-delay: 1s;
+}
+.border-animation-square--border-2 {
   animation-delay: 1.5s;
 }
 
@@ -11287,7 +11325,7 @@ textarea.form-control-lg {
   display: inline-block;
 }
 .table-responsive table tbody tr td small {
-  color: #ced4da;
+  color: #6c757d;
   font-style: italic;
   font-size: 0.8rem;
 }
@@ -11304,16 +11342,6 @@ textarea.form-control-lg {
 }
 .table-responsive table tbody > :nth-child(odd) {
   background-color: #e9ecef;
-}
-
-.project-section {
-  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
-  padding: 10rem 0 0 0;
-  width: 100%;
-  height: 100%;
-}
-.project-section input:focus, .project-section textarea:focus {
-  border: 1px solid #ffc107;
 }
 
 /*# sourceMappingURL=style.css.map */

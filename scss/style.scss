@@ -7,7 +7,6 @@
 @use './components/mixins';
 @use './components/typography';
 @use './components/forms';
-@use './components/datetime';
 
 // IMPORT THE SECTIONS
 @use './sections/navbar';
@@ -20,4 +19,3 @@
 @use './sections/get-started';
 @use './sections/footer';
 @use './sections/list-projects';
-@use './sections/create-projects';

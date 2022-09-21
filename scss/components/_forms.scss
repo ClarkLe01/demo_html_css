@@ -1,0 +1,25 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.project-form, #developer-form {
+    @include gradient;
+    padding: 10rem 0 0 0;
+    width: 100%;
+    height: 100%;
+    
+    input:focus,textarea:focus {
+        border: 0.1rem solid $yellow;
+    }
+}
+.card-body{
+    color: $white;
+}
+
+
+.form_card{
+    margin: 1rem;
+    
+}
+
+
+

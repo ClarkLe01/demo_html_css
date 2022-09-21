@@ -74,9 +74,10 @@
                         }
                     }
                     small{
-                        color:$gray-400;
+                        color:$gray-600;
                         font-style: italic;
                         font-size: 0.8rem;
+                        
                         @include media-breakpoint-down(xxl) { 
                             font-size: 0.3rem;
                         }
