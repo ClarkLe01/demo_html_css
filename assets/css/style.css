@@ -11340,6 +11340,9 @@ textarea.form-control-lg {
 .table-responsive table tbody tr .des-project {
   text-align: left;
 }
+.table-responsive table tbody tr:hover {
+  background-color: aquamarine;
+}
 .table-responsive table tbody > :nth-child(odd) {
   background-color: #e9ecef;
 }

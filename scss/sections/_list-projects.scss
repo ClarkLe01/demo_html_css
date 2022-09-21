@@ -47,7 +47,6 @@
                 }
             }
         }
-
         tbody {
             tr {
                 td {
@@ -91,6 +90,9 @@
 
                 .des-project {
                     text-align: left;
+                }
+                &:hover{
+                    background-color: aquamarine;
                 }
             }
             &>:nth-child(odd){ 
