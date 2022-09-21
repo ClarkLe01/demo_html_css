@@ -11243,43 +11243,6 @@ textarea.form-control-lg {
   height: 100%;
 }
 
-.table-projects {
-  width: 100%;
-  height: 10rem;
-  justify-content: center;
-  font-size: 1rem;
-}
-.table-projects thead {
-  text-transform: capitalize;
-  background-color: #9926f0;
-}
-.table-projects thead tr th {
-  color: #fff;
-}
-.table-projects tbody tr td {
-  text-align: center;
-}
-.table-projects tbody tr td a {
-  color: #000;
-  text-decoration: none;
-}
-.table-projects tbody tr td a:hover {
-  color: #d122e3;
-}
-.table-projects tbody tr td .btn {
-  color: #fff;
-  text-decoration: none;
-}
-.table-projects tbody tr .index-data {
-  font-weight: bold;
-}
-.table-projects tbody tr .des-project {
-  text-align: left;
-}
-.table-projects tbody tr .btn-container {
-  text-align: center;
-}
-
 .table-responsive {
   display: block;
   width: 100%;
@@ -11338,6 +11301,9 @@ textarea.form-control-lg {
 }
 .table-responsive table tbody tr .des-project {
   text-align: left;
+}
+.table-responsive table tbody > :nth-child(odd) {
+  background-color: #e9ecef;
 }
 
 /*# sourceMappingURL=style.css.map */
