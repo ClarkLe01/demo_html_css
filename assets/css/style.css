@@ -11264,6 +11264,17 @@ textarea.form-control-lg {
 
 .table-tools {
   position: relative;
+  font-size: 1rem;
+}
+@media (max-width: 767.98px) {
+  .table-tools {
+    font-size: 0.3rem;
+  }
+}
+@media (max-width: 991.98px) {
+  .table-tools {
+    font-size: 0.5rem;
+  }
 }
 .table-tools__panel-heading {
   color: #6c757d;
@@ -11271,6 +11282,16 @@ textarea.form-control-lg {
 }
 .table-tools__panel-heading .pull-right {
   float: right;
+}
+@media (max-width: 767.98px) {
+  .table-tools__panel-heading a {
+    font-size: 0.24rem;
+  }
+}
+@media (max-width: 991.98px) {
+  .table-tools__panel-heading a {
+    font-size: 0.4rem;
+  }
 }
 .table-tools__panel-body {
   width: 100%;
@@ -11369,6 +11390,20 @@ textarea.form-control-lg {
 }
 .table-responsive table tbody > :nth-child(odd) {
   background-color: #e9ecef;
+}
+
+#url_direction {
+  font-size: 1rem;
+}
+@media (max-width: 767.98px) {
+  #url_direction {
+    font-size: 0.3rem;
+  }
+}
+@media (max-width: 991.98px) {
+  #url_direction {
+    font-size: 0.5rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
