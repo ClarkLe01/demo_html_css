@@ -13,6 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
         rel="stylesheet" />
 
+    <link rel="stylesheet" href="./assets/vendors/flatpickr/flatpickr.min.css">
+    <link rel="stylesheet" href="./assets/vendors/flatpickr/themes/material_blue.css">
+    <script src="./assets/vendors/flatpickr/flatpickr.min.js"></script>
     <title>New Project</title>
 </head>
 
@@ -57,7 +60,7 @@
     <!-- END THE NAVBAR SECTION -->
 
     <!-- START THE FORM CREATE PROJECT -->
-    <section id="project-section" class="project-form">
+    <section id="project-section " class="project-form">
         <div class="container" id="create-project-form">
             <div class="row align-items-center text-white">
                 <!--START THE CONTENT FOR THE FORM-->
@@ -83,14 +86,16 @@
                         <div class="col-lg-6 col-md mb-3">
                             <div class="form-group">
                                 <label for="input_from" class="p-1">From</label>
-                                <input type="text" class="form-control" id="input_from" placeholder="Start Date">
+                                <input type="text" class="form-control js-datepicker" id="datepicker-start" data-date-format="mm/dd/yyyy"
+                                    placeholder="Start Date">
                             </div>
 
                         </div>
                         <div class="col-lg-6 col-md mb-3">
                             <div class="form-group">
                                 <label for="input_to" class="p-1">To</label>
-                                <input type="text" class="form-control" id="input_to" placeholder="End Date">
+                                <input type="text" class="form-control js-datepicker" id="datepicker-end" data-date-format="mm/dd/yyyy"
+                                    placeholder="End Date">
                             </div>
                         </div>
                         <div class="col-lg-12 mb-3">
@@ -294,6 +299,10 @@
     <script src="./assets/vendors/glightbox/js/glightbox.min.js"></script>
     <script src="./assets/vendors/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="./assets/js/lightbox.js"></script>
+    <script src="./assets/js/datetimepicker.js"></script>
+
+
+
 </body>
 
 </html>

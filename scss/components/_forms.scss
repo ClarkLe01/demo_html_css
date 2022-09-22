@@ -1,9 +1,9 @@
 @use "../custom" as *;
 @use "../components/mixins" as *;
 
-.project-form, #developer-form {
+.project-form{
     @include gradient;
-    padding: 10rem 0 0 0;
+    padding: 8rem 0 0 0;
     width: 100%;
     height: 100%;
     
@@ -17,7 +17,7 @@
 
 
 .form_card{
-    margin: 1rem;
+    margin-top: 2rem;
 }
 
 
