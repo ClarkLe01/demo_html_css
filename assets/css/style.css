@@ -11288,9 +11288,14 @@ textarea.form-control-lg {
   overflow-x: auto;
   font-size: 1rem;
 }
-@media (max-width: 1399.98px) {
+@media (max-width: 767.98px) {
   .table-responsive {
-    font-size: 0.7rem;
+    font-size: 0.3rem;
+  }
+}
+@media (max-width: 991.98px) {
+  .table-responsive {
+    font-size: 0.5rem;
   }
 }
 .table-responsive table thead {
@@ -11324,14 +11329,33 @@ textarea.form-control-lg {
 .table-responsive table tbody tr td .btn-container a {
   display: inline-block;
 }
+@media (max-width: 767.98px) {
+  .table-responsive table tbody tr td .btn-container a {
+    font-size: 0.3rem;
+    margin-bottom: 2px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+  }
+}
+@media (max-width: 991.98px) {
+  .table-responsive table tbody tr td .btn-container a {
+    font-size: 0.5rem;
+  }
+}
 .table-responsive table tbody tr td small {
   color: #6c757d;
   font-style: italic;
   font-size: 0.8rem;
 }
-@media (max-width: 1399.98px) {
+@media (max-width: 767.98px) {
   .table-responsive table tbody tr td small {
-    font-size: 0.3rem;
+    font-size: 0.24rem;
+  }
+}
+@media (max-width: 991.98px) {
+  .table-responsive table tbody tr td small {
+    font-size: 0.4rem;
   }
 }
 .table-responsive table tbody tr th {
