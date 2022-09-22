@@ -10917,7 +10917,7 @@ textarea.form-control-lg {
   font-weight: 600;
 }
 
-.intro-section, .developer-form {
+.intro-section {
   background: linear-gradient(to right, rgba(33, 42, 165, 0.95), rgba(32, 201, 151, 0.95));
   padding: 10rem 0 0 0;
   width: 100%;
@@ -10934,6 +10934,23 @@ textarea.form-control-lg {
 
 .img-box {
   position: relative;
+}
+
+.border-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6rem;
+  height: 6rem;
+  border: 0.55rem solid #e9acf0;
+  border-radius: 50%;
+  animation: pulse-border 1.5s linear infinite;
+}
+.border-animation--border-1 {
+  animation-delay: 1s;
+}
+.border-animation--border-2 {
+  animation-delay: 1.5s;
 }
 
 .campanies {
