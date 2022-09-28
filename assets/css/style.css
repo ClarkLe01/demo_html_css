@@ -10887,13 +10887,13 @@ textarea.form-control-lg {
   background: linear-gradient(to right, rgba(33, 42, 165, 0.95), rgba(32, 201, 151, 0.95));
 }
 
-.project-form {
+.project-form, .developer-form {
   background: linear-gradient(to right, rgba(33, 42, 165, 0.95), rgba(32, 201, 151, 0.95));
   padding: 8rem 0 0 0;
   width: 100%;
   height: 100%;
 }
-.project-form input:focus, .project-form textarea:focus {
+.project-form input:focus, .project-form textarea:focus, .developer-form input:focus, .developer-form textarea:focus {
   border: 0.1rem solid #ffc107;
 }
 
